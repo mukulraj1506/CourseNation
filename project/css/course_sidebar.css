@@ -1,0 +1,85 @@
+
+.course-sidebar {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 0 2px #f0dbdb;
+    padding-left: 20px;
+}
+
+ .imggg-box::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.course-sidebar .imggg-box{
+margin-bottom: 20px;
+margin-right: 20px;
+border-radius: 5px;
+overflow:hidden;
+cursor:pointer;
+}
+
+
+
+.course-sidebar  .play-icon{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top:50%;
+left:50%;
+background-color: #e55252;
+font-size: 16px;
+transform: translate(-50%,-50%);
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+color:white;
+}
+
+
+.pricee span{
+margin-right: 8px;
+}
+
+.price-old{
+    text-decoration: line-through;
+}
+.price-new{
+font-size:30px;
+font-weight: 700;
+color:#1a1a1a;
+}
+
+.price-discount{
+color:#e55252;
+}
+.course-sidebar .features-list{
+    margin:0 0 10px;
+    }
+.course-sidebar .features-list li{
+position: relative;
+padding-left: 21px;
+margin-bottom: 8px;
+}
+.course-sidebar .features-list li::before{
+content:'';
+height:6px;
+width:6px;
+background-color: #e55252;
+position: absolute;
+left:0;
+top:9px;
+border-radius: 50%;
+}
+
+
+.btn-block{
+width: 80%;
+margin-left: 22px;
+margin-top:10px;
+}

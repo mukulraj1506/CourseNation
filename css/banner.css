@@ -1,0 +1,125 @@
+.banner{
+    padding: 80px 0;
+    min-height: 680px;
+}
+
+.banner .circular-img-circle{
+    background-color:#fbd6d6; 
+}
+.banner-text h1{
+font-size:45px;
+font-weight:700;
+}
+
+.banner-text h2{
+    font-size:20px;
+    color:#e55252;
+}
+.circular-img{
+    max-width:380px;
+    margin:auto;
+    position:relative;
+    z-index: 1;
+}
+.circular-img-inner{
+
+    text-align: center;
+    border-radius: 0 0 160px 160px;
+    overflow: hidden;
+}
+.circular-img-circle{
+    height: 380px;
+    width:380px;
+    position:relative;
+    left:0;
+    bottom: 0;
+    border-radius: 50%;
+}
+
+.circular-img img{
+    position:relative;
+    z-index:1;
+    
+}
+.btn-theme{
+    background-color: #e55252;
+    color:#FFFFFF;
+    font-size:16px;
+    font-weight:500;
+    padding:8px 20px;
+    transition: all 0.3s ease;
+}
+
+.btn-theme:hover{
+    color:#FFFFFF;
+    background-color: #cb4343;
+}
+
+.btn-theme:focus{
+    box-shadow: 0 0 8px #e55252;
+}
+
+@keyframes bubble{
+    0%{
+        transform: translateY(0vh);
+        opacity: 0;
+    }
+    5%,95%{
+        opacity: 1;
+
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(-100vh);
+    }
+}
+.bubble-item{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+     border-radius: 50%;
+     border: 2px solid transparent;
+     z-index: -1;
+}
+.bubble-item:nth-child(1){
+   border-color: #FFA500;
+   top:120%;
+   left:10%;
+   animation: bubble 30s linear infinite;
+}
+.bubble-item:nth-child(2){
+    border-color: #94ebcb;
+    top:60%;
+    left:50%;
+    animation: bubble 40s linear infinite;
+ }
+ .bubble-item:nth-child(3){
+    border-color: #e55252;
+    top:90%;
+    left:90%;
+    animation: bubble 50s linear infinite;
+ }
+ .bubble-item:nth-child(4){
+    border-color: #FFA500;
+    top:80%;
+    left:60%;
+    animation: bubble 60s linear infinite;
+ }
+ .bubble-item:nth-child(5){
+    border-color: #94ebcb;
+    top:30%;
+    left:10%;
+    animation: bubble 70s linear infinite;
+ }
+ .bubble-item:nth-child(6){
+    border-color: #f69898;
+    top:20%;
+    left:30%;
+    animation: bubble 80s linear infinite;
+ }
+ .bubble-item:nth-child(7){
+    border-color: #FFA500;
+    top:100%;
+    left:5%;
+    animation: bubble 60s linear infinite;
+ }

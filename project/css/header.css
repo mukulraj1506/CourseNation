@@ -1,0 +1,79 @@
+.header{
+    border-bottom: 1px solid #ededed;
+}
+.container{
+    --bs-gutter-x:15px;
+    max-width: 1140px;
+}
+
+
+.header-logo a{
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#4d4d4d;
+}
+
+.header-logo span{
+    color:#e55252;
+}
+.header .menu-item{
+    display:inline-block;
+    margin-left:40px;
+    margin-right:10px;
+    position: relative;
+}
+.header .menu-item > a{
+    display:block;
+    padding: 24px 0;
+    font-weight:400;
+    color:#1a1a1a;
+    text-transform: capitalize;
+    transition: color 0.3s ease ;
+}
+
+.menu-item  > a i{
+    font-size:13px;
+    margin-left:3px;
+    pointer-events: none;
+    transition: tranform 0.3 ease;
+}
+.header .sub-menu{
+    position: absolute;
+    background-color: #FFFFFF;
+    top:100%;
+    left:0;
+    width:200px;
+    padding: 10px 0;
+    border-radius: 5%;
+    box-shadow: 0 0 0 2px 	#f0dbdb;
+    transition: all 0.3s ease;
+    z-index: 2;
+    visibility: hidden;
+    opacity: 0;
+    transform:translateY(10px);
+}
+
+.header .menu-item:hover >a{
+    color:#e55252;
+}
+.header .sub-menu-item a:hover{
+    color:#e55252;
+}
+@media(min-width:990px){
+    .header .menu-item:hover>.sub-menu{
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.header .sub-menu-item a{
+    display:block;
+    padding:10px 20px;
+    font-weight: 400;
+    color:#1a1a1a;
+transition: color 0.3s ease;
+}
+.header-backdrop,.header-hamburger-btn,.header-close-btn{
+    display:none;
+}

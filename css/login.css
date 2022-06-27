@@ -1,0 +1,44 @@
+
+.login-section {
+    margin-bottom: 40px;
+}
+
+.btn-form {
+    background-color: #e55252;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 20px;
+    transition: all 0.3s ease;
+    width: 80%;
+    margin-left: 42px;
+    margin-top: 10px;
+    height: 48px;
+    margin-bottom: 0;
+}
+
+.btn-form:hover {
+    color: #FFFFFF;
+    background-color: #cb4343;
+}
+
+.btn-form:focus {
+    box-shadow: 0 0 8px #e55252;
+}
+
+.form-title {
+    font-size: 24px;
+    margin: 5px 0 30px;
+    font-weight: 600;
+}
+
+.form-control::placeholder {
+    color: #4d4d4d;
+}
+
+.form-group {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 15px;
+
+}

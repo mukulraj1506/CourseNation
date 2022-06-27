@@ -1,0 +1,30 @@
+.course-instructor{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 0 2px #f0dbdb;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.image-box img{
+margin-bottom: 18px;
+   max-width:180px ; 
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.course-instructor h4{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.course-instructor h4 span{
+   font-weight: 300;
+}
+.course-instructor ul li i{
+    color:#e55252;
+    margin-right:5px;
+}
+.course-instructor ul li:not(:last-child){
+    margin-bottom:5px;
+}
+.course-instructor h3{
+    font-size:20px;
+}

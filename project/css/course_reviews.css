@@ -1,0 +1,132 @@
+
+.course-reviews{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 0 2px #f0dbdb;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.rating-summary .average-rating{
+font-size:40px;
+font-weight:700;
+color:#1a1a1a;
+}
+.rating-summary .average-stars i{
+    color:orange;
+}
+
+.rating-summary .rating-bars-item{
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.rating-summary .progress{
+    height:8px;
+    background-color: #f5a5a5;
+ margin-right: 20px;
+ border-radius:0%;
+ width: calc(100%-120px);
+}
+.progress-bar{
+    background-color: #e55252;;
+}
+.star-text{
+    min-width: 60px;
+    color: orange;
+}
+.imgg img{
+    width:50px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.reviews-item{
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 65px;
+}
+.reviews-item .img-box{
+    max-width: 50px;
+    overflow: hidden;
+    position: absolute;
+    left:0;
+    top:0;
+}
+
+.reviews-item h4{
+    font-size: 16px;
+    font-weight: 500;
+    margin:0 0 5px;
+    color:#1a1a1a;
+}
+
+.reviews-item i{
+    color:orange;
+    font-size:14px;
+}
+.reviews-item .date{
+    margin-left:5px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.reviews-item p{
+    margin:5px 0 0;
+}
+
+.course-reviews h3{
+    font-size:20px;
+}
+
+.reviews-filter{
+    margin:0 0 35px;
+    width:200px;
+}
+
+.form-group{
+    margin-bottom: 25px;
+    position:relative;
+}
+.form-control{
+    height:48px;
+    border-color:#ededed;
+    color:#1a1a1a;
+    background-color: transparent;
+}
+
+.form-control:focus{
+    background-color: transparent;
+    border-color:#f69898;
+    color:#1a1a1a;
+    box-shadow: none;
+}
+
+.select-icon{
+    position:absolute;
+    right:15px;
+    top:50%;
+transform: translateY(-50%);
+pointer-events: none;
+font-size: 13px;
+}
+
+select.form-control:focus option{
+    background-color: #f7e0e0;;
+}
+
+.btn-theme{
+    background-color: #e55252;
+    color:#FFFFFF;
+    font-size:16px;
+    font-weight:500;
+    padding:8px 20px;
+    transition: all 0.3s ease;
+}
+
+.btn-theme:hover{
+    color:#FFFFFF;
+    background-color: #cb4343;
+}
+
+.btn-theme:focus{
+    box-shadow: 0 0 8px #e55252;
+}

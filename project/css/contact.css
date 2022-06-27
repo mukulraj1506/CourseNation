@@ -1,0 +1,71 @@
+.btn-form {
+    background-color: #e55252;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 20px;
+    transition: all 0.3s ease;
+    width: 80%;
+    margin-left: 52px;
+    margin-top: 10px;
+    height: 48px;
+    margin-bottom: 3px;
+}
+
+.btn-form:hover {
+    color: #FFFFFF;
+    background-color: #cb4343;
+}
+
+.btn-form:focus {
+    box-shadow: 0 0 8px #e55252;
+}
+
+
+
+.form-title{
+    font-size: 24px;
+     margin-left:20px ;
+     margin-bottom: 20px;
+    font-weight: 600;
+}
+
+
+.form-control::placeholder {
+    color: #4d4d4d;
+}
+
+
+
+.form-group {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 15px;
+
+}
+
+.contact-item{
+    padding-left: 55px;
+    margin-bottom: 40px;
+position: relative;
+}
+.section-title{
+    margin-bottom: 40px;
+}
+.contact-item .icon-box{
+position: absolute;
+    height:40px;
+    width:40px;
+    background-color: #e55252;
+   justify-content: center;
+   align-items: center;
+   left: 0;
+   top: 5px;
+   color:white;
+   border-radius: 50%;
+   display: flex;
+}
+textarea.form-control{
+    height:120px;
+    resize: none;
+}

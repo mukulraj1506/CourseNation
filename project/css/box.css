@@ -1,0 +1,33 @@
+.box{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 0 2px 	#f0dbdb;
+    padding:20px 0;
+}
+.box .row{
+    text-align:center;
+}
+.fun-item{
+    padding: 15px 0;
+}
+
+.fun-item h2{
+   font-weight:700;
+   font-size:30px;
+}
+.fun-item p{
+    margin:0;
+}
+
+  .ins{
+    color:#ff8787;
+}
+.k5{
+color:#4d4d4d;
+}
+.countr{
+color:#f5b089;
+}
+.cour{
+color:#55ca9f;
+}

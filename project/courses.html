@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/awesomefont.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/course_breadcrumb.css">
+    <link rel="stylesheet" href="css/course_page.css">
+    <link rel="stylesheet" href="css/courses.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/page_loader.css">
+    <title>Courses</title>
+</head>
+
+<body>
+
+    <body>
+        <div class="page-loader js-page-loader">
+            <div></div>
+        </div>
+        <div class="main-wrapper">
+            <header class="header">
+                <div class="container">
+                    <div class="header-main d-flex justify-content-between align-items-center">
+                        <div class="header-logo ">
+                            <a href="index.html"><span>Course</span>Nation </a>
+                        </div>
+                        <button type="button" class="header-hamburger-btn js-header-menu-toggler">
+                            <span></span>
+                        </button>
+                        <div class="header-backdrop js-header-backdrop"></div>
+                        <nav class="header-menu js-header-menu ">
+                            <button type="button" class="header-close-btn js-header-menu-toggler">
+                                <i class="fas fa-times"></i>
+                            </button>
+                            <ul class="menu">
+                                <li class="menu-item"><a href="index.html">Home</a></li>
+                                <li class="menu-item  menu-item-has-children"><a class="js-toggle-sub-menu"
+                                        href="#">Courses<i class="fas fa-chevron-down"></i></a>
+                                    <ul class="sub-menu js-sub-menu">
+                                        <li class="sub-menu-item"><a href="courses.html">Course</a></li>
+                                        <li class="sub-menu-item"><a href="course-details.html">Course Details</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item menu-item-has-children"><a href="#"
+                                        class="js-toggle-sub-menu">Account<i class="fas fa-chevron-down"></i></a>
+                                    <ul class="sub-menu js-sub-menu">
+                                        <li class="sub-menu-item"><a href="login.html">Log In</a></li>
+                                        <li class="sub-menu-item"><a href="signup.html">Sign Up</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item"><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+
+
+            <div class="breadcrumb-nav">
+                <div class="container">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb mb-0">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Courses</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+
+
+            <section class="course-section section-padding">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 text-center">
+                            <div class="section-title text-center mb-4">
+                                <h2 class="titlee"> Our Courses</h2>
+                                <p class="subtitle">Find the right and desired course for yourself</p>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-12">
+                            <nav>
+                                <div class="nav nav-tabs border-0 justify-content-center mb-4" id="nav-tab"
+                                    role="tablist">
+                                    <button class="nav-link active" id="development-tab" data-bs-toggle="tab"
+                                        data-bs-target="#development" type="button" role="tab"
+                                        aria-controls="development" aria-selected="true">Development</button>
+                                    <button class="nav-link" id="music-tab" data-bs-toggle="tab" data-bs-target="#music"
+                                        type="button" role="tab" aria-controls="music"
+                                        aria-selected="false">Music</button>
+                                    <button class="nav-link" id="photography-tab" data-bs-toggle="tab"
+                                        data-bs-target="#photography" type="button" role="tab"
+                                        aria-controls="photography" aria-selected="false">Photography</button>
+                                </div>
+                            </nav>
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="development" role="tabpanel"
+                                    aria-labelledby="development-tab">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="course-item">
+                                                <a href="course-details.html" class="link">
+                                                    <div class="course-inner">
+                                                        <div class="image-box">
+                                                            <img src="images/colt.jpg" alt="course img">
+                                                        </div>
+                                                        <h3 class="course1">Web Development Bootcamp</h3>
+                                                        <div class="ins1">
+                                                            <img src="images/ins1.jpg" alt="img">
+                                                            <span class="name1">Colt Steele</span>
+                                                        </div>
+                                                        <div class="rating">
+                                                            <span class="average-rating">(4.5)</span>
+                                                            <span class="average-stars">
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star-half-alt"></i>
+                                                            </span>
+                                                            <span class="reviews">(84000)</span>
+                                                        </div>
+                                                        <div class="price">$15</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="course-item">
+                                                <a href="course-details.html" class="link">
+                                                    <div class="course-inner">
+                                                        <div class="image-box">
+                                                            <img src="images/ins2.jpg" alt="course img">
+                                                        </div>
+                                                        <h3 class="course1">ios Development Bootcamp</h3>
+                                                        <div class="ins1">
+                                                            <img src="images/angela.jpg" alt="img">
+                                                            <span class="name1">Dr. Angela Yu</span>
+                                                        </div>
+                                                        <div class="rating">
+                                                            <span class="average-rating">(4.5)</span>
+                                                            <span class="average-stars">
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star-half-alt"></i>
+                                                            </span>
+                                                            <span class="reviews">(54200)</span>
+                                                        </div>
+                                                        <div class="price">$10</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="course-item">
+                                                <a href="course-details.html" class="link">
+                                                    <div class="course-inner">
+                                                        <div class="image-box">
+                                                            <img src="images/MachineLearning.jpg" alt="course img">
+                                                        </div>
+                                                        <h3 class="course1">Machine Learning</h3>
+                                                        <div class="ins1">
+                                                            <img src="images/ins3.jpg" alt="img">
+                                                            <span class="name1">Kiril Eremenko</span>
+                                                        </div>
+                                                        <div class="rating">
+                                                            <span class="average-rating">(4.5)</span>
+                                                            <span class="average-stars">
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star-half-alt"></i>
+                                                            </span>
+                                                            <span class="reviews">(36000)</span>
+                                                        </div>
+                                                        <div class="price">$20</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="course-item">
+                                                <a href="course-details.html" class="link">
+                                                    <div class="course-inner">
+                                                        <div class="image-box">
+                                                            <img src="images/course4.jpeg" alt="course img">
+                                                        </div>
+                                                        <h3 class="course1">Complete Python Language</h3>
+                                                        <div class="ins1">
+                                                            <img src="images/ins4.jfif" alt="img">
+                                                            <span class="name1">Andre Neagoie</span>
+                                                        </div>
+                                                        <div class="rating">
+                                                            <span class="average-rating">(4.5)</span>
+                                                            <span class="average-stars">
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star-half-alt"></i>
+                                                            </span>
+                                                            <span class="reviews">(32000)</span>
+                                                        </div>
+                                                        <div class="price">$10</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="music" role="tabpanel" aria-labelledby="music-tab">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="course-item">
+                                                <a href="course-details.html" class="link">
+                                                    <div class="course-inner">
+                                                        <div class="image-box">
+                                                            <img src="images/music1.png" alt="course img">
+                                                        </div>
+                                                        <h3 class="course1">Music Production</h3>
+                                                        <div class="ins1">
+                                                            <img src="images/musicins1.png" alt="img">
+                                                            <span class="name1">Tomas George</span>
+                                                        </div>
+                                                        <div class="rating">
+                                                            <span class="average-rating">(4.5)</span>
+                                                            <span class="average-stars">
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star-half-alt"></i>
+                                                            </span>
+                                                            <span class="reviews">(20000)</span>
+                                                        </div>
+                                                        <div class="price">$30</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="course-item">
+                                                <a href="course-details.html" class="link">
+                                                    <div class="course-inner">
+                                                        <div class="image-box">
+                                                            <img src="images/music2.jpg" alt="course img">
+                                                        </div>
+                                                        <h3 class="course1">Guitar Lessons</h3>
+                                                        <div class="ins1">
+                                                            <img src="images/musicins2.jpg" alt="img">
+                                                            <span class="name1">Erich Andreas</span>
+                                                        </div>
+                                                        <div class="rating">
+                                                            <span class="average-rating">(4.5)</span>
+                                                            <span class="average-stars">
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star-half-alt"></i>
+                                                            </span>
+                                                            <span class="reviews">(32000)</span>
+                                                        </div>
+                                                        <div class="price">$15</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="course-item">
+                                                <a href="course-details.html" class="link">
+                                                    <div class="course-inner">
+                                                        <div class="image-box">
+                                                            <img src="images/music3.jpg" alt="course img">
+                                                        </div>
+                                                        <h3 class="course1">Piano for All</h3>
+                                                        <div class="ins1">
+                                                            <img src="images/music3.jpg" alt="img">
+                                                            <span class="name1">Robin Hall</span>
+                                                        </div>
+                                                        <div class="rating">
+                                                            <span class="average-rating">(4.5)</span>
+                                                            <span class="average-stars">
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star-half-alt"></i>
+                                                            </span>
+                                                            <span class="reviews">(15000)</span>
+                                                        </div>
+                                                        <div class="price">$10</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="photography" role="tabpanel"
+                                    aria-labelledby="photography-tab">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="course-item">
+                                                <a href="course-details.html" class="link">
+                                                    <div class="course-inner">
+                                                        <div class="image-box">
+                                                            <img src="images/photo1.jpg" alt="course img">
+                                                        </div>
+                                                        <h3 class="course1">Photography Beginners</h3>
+                                                        <div class="ins1">
+                                                            <img src="images/photoins1.jpg" alt="img">
+                                                            <span class="name1">Rosie Parsons</span>
+                                                        </div>
+                                                        <div class="rating">
+                                                            <span class="average-rating">(4.5)</span>
+                                                            <span class="average-stars">
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star-half-alt"></i>
+                                                            </span>
+                                                            <span class="reviews">(29000)</span>
+                                                        </div>
+                                                        <div class="price">$30</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="course-item">
+                                                <a href="course-details.html" class="link">
+                                                    <div class="course-inner">
+                                                        <div class="image-box">
+                                                            <img src="images/photoo2.jpg" alt="course img">
+                                                        </div>
+                                                        <h3 class="course1">Photography Masterclass</h3>
+                                                        <div class="ins1">
+                                                            <img src="images/photoins2.jpg" alt="img">
+                                                            <span class="name1">Katie Phillips</span>
+                                                        </div>
+                                                        <div class="rating">
+                                                            <span class="average-rating">(4.5)</span>
+                                                            <span class="average-stars">
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star-half-alt"></i>
+                                                            </span>
+                                                            <span class="reviews">(30000)</span>
+                                                        </div>
+                                                        <div class="price">$25</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 mt-3">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination justify-content-center">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Previous">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item disabled"><a class="page-link" href="#">...</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">50</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Next">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="footer-top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="footer-item">
+                                    <h3 class="footer-logo"><span>Course</span>Nation</h3>
+                                    <ul>
+                                        <li><a href="#">About</a></li>
+                                        <li><a href="#">Offers</a></li>
+                                        <li><a href="#">Careers</a></li>
+                                        <li><a href="#">Certificates</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="footer-item">
+                                    <h3>Learning</h3>
+                                    <ul>
+                                        <li><a href="#">Get App</a></li>
+                                        <li><a href="#">Pricing</a></li>
+                                        <li><a href="#">FAQ</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="footer-item">
+                                    <h3>More</h3>
+                                    <ul>
+                                        <li><a href="#">Affiliates</a></li>
+                                        <li><a href="#">Training Webinars</a></li>
+                                        <li><a href="#">Personality Test</a></li>
+                                        <li><a href="#">Help and Support</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="footer-item">
+                                    <h3>Contact Us</h3>
+                                    <ul>
+                                        <li><a href="https://www.linkedin.com/in/mukul-raj-93658a184/"><i
+                                                    class="fab fa-linkedin social-icon"></i>LinkedIn </a></li>
+                                        <li><a href="#"><i class="fab fa-google social-icon"></i>Gmail</a></li>
+                                        <li><a href="https://www.instagram.com/mukulraj1506/?hl=bg"><i
+                                                    class="fab fa-instagram social-icon"></i>Instagram</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-down">
+                    <div class="container">
+                        <p class="m-0 py-4 text-center"><b>&#169; 2022 | Mukul Raj</b></p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+
+</html>

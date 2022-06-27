@@ -1,0 +1,15 @@
+.course-description{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 0 2px #f0dbdb;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.course-description h4{
+     font-size:16px;
+     font-weight: 600;
+}
+
+.course-description h3{
+    font-size:20px;
+}

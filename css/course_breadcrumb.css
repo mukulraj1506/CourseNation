@@ -1,0 +1,10 @@
+.breadcrumb-nav{
+    padding:10px 0;
+}
+.breadcrumb-item{
+    font-size: 14px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before,.breadcrumb-item.active{
+    color:blueviolet;
+}
